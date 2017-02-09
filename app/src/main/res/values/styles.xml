@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <!---->
+    <style name="add_prev_button">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <!-- Title page-->
+    <style name="text_view_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center|center_vertical</item>
+        <item name="android:textSize">@dimen/txt_size_smm</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:state_single">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!---->
+    <style name="style_adapter_add_langauge">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:horizontalSpacing">1dp</item>
+        <item name="android:listSelector">@color/colorPrimaryDark</item>
+        <item name="android:numColumns">4</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">1dp</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+
+    </style>
+    <!---->
+    <style name="add_next_button">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.customviewstep.MainActivity">
+    <RelativeLayout
+        android:id="@+id/title_areas"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/quark_header">
+        <ImageView android:id="@+id/btn_exit"
+            style="@style/add_prev_button"
+            android:src="@drawable/icon_nav_cancel"/>
+
+        <ImageView android:id="@+id/btn_next"
+            style="@style/add_next_button"
+            android:src="@drawable/icon_nav_next_on"
+            android:layout_alignParentRight="true"/>
+
+        <TextView android:id="@+id/title_page"
+            style="@style/text_view_header"
+            android:text="Please select your preferred language."
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_areas"
+        android:background="@color/quarkbg"
+        android:padding="10dp">
+        <GridView
+            android:id="@+id/grid_view"
+            style="@style/style_adapter_add_langauge">
+
+        </GridView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
